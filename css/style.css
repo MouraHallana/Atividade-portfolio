@@ -41,7 +41,7 @@ section.banner img {
     width:  35%;
 }
 
-section.banner h2 {
+section.banner h1 {
     font-weight: bold;
     font-size: 1.7rem;
     margin: 3vw 0 3vw 0;
@@ -115,4 +115,61 @@ section.works ul li p span {
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
     font-weight: bold;
+}
+
+section.works ul li { 
+padding: 0  20px 0 20px;
+}
+
+/*=================================================================================================
+                                              RODAPÈ                                           
+================================================================================================*/
+
+footer {
+    text-align: center;
+    padding: 5vw 0 5vw 0;
+}
+
+footer nav p a {
+    color: #21243D;
+    font-size: 2rem;
+    margin: 0 10px 10px 0;
+}
+
+footer p {
+    padding: 10px 0 10px 0;
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 900px) {
+ 
+    header {
+        padding: 2vw 2vw 10vw 2vw;
+    }
+
+
+    header nav ul {
+    display: flex;
+    justify-content: right;
+ }
+
+    header nav ul li {
+    margin: 0 20px 0 20px;
+ }
+
+
+    section.banner {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    section.banner img {
+        width: 80%;
+    }
+
+    section.banner div.textinho {
+        width: 50%;
+        text-align: left;
+        padding: 0 10vw 0 10vw;;
+    }
 }
