@@ -157,10 +157,14 @@ footer p {
     margin: 0 20px 0 20px;
  }
 
+    main section h2 {
+        text-align: left;
+    }
 
     section.banner {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row-portuguesareverse;
+        padding: 0 10vw 0 10vw;
     }
 
     section.banner img {
@@ -168,8 +172,44 @@ footer p {
     }
 
     section.banner div.textinho {
-        width: 50%;
+        width: 50%;portuguesa
         text-align: left;
         padding: 0 10vw 0 10vw;;
     }
+
+    section.posters {
+        padding: 3vw 10vw 3vw 10vw;
+    }
+
+    section.posters ul {
+        display: flex;
+        margin: 1vw 0 0 0;
+    }
+
+    section.posters ul li {
+        margin: 0 1vw 0 1vw
+    }
+
+    section.posters h2 {
+        font-size: 1rem;
+    }
+
+    section.works {
+        padding: 3vw 10vw 3vw 10vw;
+    }
+
+    section.works ul {
+        display: flex;
+        margin: 1vw 0 0 0 ;
+    }
+
+
+    section.works ul li {
+        margin: 0 1vw 0 1vw;
+    }
+
+    section.works h2 {
+        font-size: 1rem;
+    }
+  
 }
