@@ -22,7 +22,7 @@ header
 header nav ul li {
     text-align: center;
     margin: 20px 0px 20px 0px;
-}css
+}
 
 header nav ul li a {
     color: black;
@@ -41,7 +41,7 @@ section.banner {
 section.banner img {css
     /*==========================================================================================
                                     WORKS
-==========================================================================================*/
+======================<i class="fa-solid fa-bars">====================================================================*/
 
     section.comeco h2 {
         font-weight: bolder;
@@ -62,6 +62,34 @@ section.banner p button {
     border: none;
     font-size: 1.5rem;
     margin: 3vw 0 3vw 0;
+/* ========================================================
+header
+===========================================================*/
+
+header nav ul li {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}css
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* ========================================================
+header
+===========================================================*/
+
+header nav ul li {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}css
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
 }
@@ -135,9 +163,8 @@ section.works ul li {
     section.comeco h2 {
         font-weight: bolder;
     }
-css
-    padding: 0 20px 0 20px;
-}
+    padding:0 20px 0 20px;
+}device-width
 
 /*=================================================================================================
                                               RODAPÈ                                           
@@ -156,14 +183,12 @@ footer nav p a {
 
 footer p {
     padding: 10px 0 10px 0;
-    /*==========================================================================================
-                                    WORKS
-==========================================================================================*/
+}
 
     section.comeco h2 {
         font-weight: bolder;
     }
-}
+
 
 /* CSS media query dentro de um stylesheet */
 @media (min-width: 900px) {
@@ -188,7 +213,7 @@ footer p {
 
     section.banner {
         display: flex;
-        flex-direction: row-portuguesareverse;
+        flex-direction: row;
         padding: 0 10vw 0 10vw;
     }
 
